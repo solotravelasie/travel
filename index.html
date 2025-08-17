@@ -1,22 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Mon Site</title>
-    <style>
-      body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo Travel Asie</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #2196F3;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.5em;
+      flex-shrink: 0;
+    }
+
+    iframe {
+      flex: 1;
+      width: 100%;
+      border: none;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 600px) {
+      header {
+        font-size: 1.2em;
       }
-      iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-      }
-    </style>
-  </head>
-  <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbwwjv2k3pzOWT23eRJJ_Sm96BoFRmDNx3p5b7tLheSC47-KG3IOppdF6fX0_xsLzlna/exec"></iframe>
-  </body>
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Solo Travel Asie
+  </header>
+
+  <iframe src="https://script.google.com/macros/s/AKfycbwwjv2k3pzOWT23eRJJ_Sm96BoFRmDNx3p5b7tLheSC47-KG3IOppdF6fX0_xsLzlna/exec"></iframe>
+
+</body>
 </html>
